@@ -1,0 +1,28 @@
+:root {
+  --text-secondary: #daff01;
+  --bg-purple: #9353ff;
+}
+
+.bg-purple {
+  background-color: var(--bg-purple);
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+.fs-8 {
+  font-size: 12px;
+}
+
+.facilities-item {
+  display: flex;
+  width: 304px;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .div-novidades {
+    width: 696px;
+  }
+}
